@@ -7,5 +7,7 @@ public class CarLot
         Lot = new List<Car>();
     }
 
+    public static int numberOfCars;
+
     public List<Car> Lot {get; set;}
 }

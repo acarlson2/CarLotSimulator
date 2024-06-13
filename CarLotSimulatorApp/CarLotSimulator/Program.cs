@@ -44,6 +44,8 @@ namespace CarLotSimulator
             lot.Lot.Add(truck);
             lot.Lot.Add(convert);
 
+            Console.WriteLine($"There are {CarLot.numberOfCars} car(s) in this lot.");
+
             foreach(Car car in lot.Lot)
             {
                 Console.WriteLine(car.Year);
